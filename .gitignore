@@ -8,7 +8,7 @@ dist/
 *.log
 
 # 环境变量
-.env
+frontend/.env
 .env.*
 
 # VSCode/IDE 配置
