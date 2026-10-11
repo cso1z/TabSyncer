@@ -2,6 +2,26 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+# Version v0.6.5
+
+### Highlights
+
+- Added recovery for recently closed windows and tabs, with previews before restoring work
+- Improved snapshot merging with selectable primary snapshots and synchronized names, groups, shortcuts, and related state
+- Improved home-page snapshot recommendations and candidate selection for more relevant results
+- Improved snapshot collection state detection and synchronization, including compatibility with historical collection data
+- Improved snapshot management with paginated trash snapshots and clearer time display in snapshot lists
+
+### Fixes & Improvements
+
+- Improved automatic login-state renewal to reduce authentication errors and repeated sign-ins caused by concurrent requests
+- Fixed recommendation service errors being incorrectly treated as expired login sessions
+- Fixed inconsistent behavior when opening recommended snapshots with Ctrl/Command and other modifier keys
+- Fixed collection state refresh and concurrent update synchronization issues
+- Fixed shortcut associations being lost after merging snapshots
+
+---
+
 ## Version v0.6.0 
 
 ### Highlights

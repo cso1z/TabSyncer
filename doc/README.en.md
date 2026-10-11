@@ -17,7 +17,7 @@ The main flow is: start from NewTab, organize currently open tabs with Tabout, s
 
 1. **Use NewTab As The Daily Work Entry**
 
-   Keep frequent links, snapshot entries, and work-continuity prompts on the new tab page. TabSyncer supports arbitrary saved links, making the browser's daily work entry more focused.
+   Keep frequent links, snapshot entries, and work-continuity prompts on the new tab page. TabSyncer supports arbitrary saved links, and lets you preview and restore recently closed windows and tabs.
 
 2. **Organize Currently Open Tabs**
 
@@ -39,7 +39,7 @@ The main flow is: start from NewTab, organize currently open tabs with Tabout, s
 
 ### 1. Start From NewTab
 
-TabSyncer can turn Chrome's new tab page into a lightweight workspace that brings frequent links, snapshot entries, work-continuity prompts, and the open-tab organizer together. Frequent websites and work entry points can also be saved as clearer shortcuts.
+TabSyncer can turn Chrome's new tab page into a lightweight workspace that brings frequent links, snapshot entries, work-continuity prompts, recently closed windows and tabs, and the open-tab organizer together. You can preview and restore recently closed windows or tabs to quickly resume your work. Frequent websites and work entry points can also be saved as clearer shortcuts.
 
 ![NewTab workspace](../resource/newtab.png)
 
