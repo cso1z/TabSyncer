@@ -2,6 +2,28 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+# Version v0.7.0
+
+### Highlights
+
+- Redesigned NewTab search to improve URL handling, keyword searches, and search suggestions
+- Added support for creating empty snapshots on the Web and improved saving and retry behavior for snapshots with empty tabs
+- Added snapshot deduplication and improved the merge flow for more efficient snapshot organization
+- Improved snapshot name recognition and shortcut associations for a smoother snapshot management experience
+- Improved home-page snapshot recommendations and candidate loading for better relevance, responsiveness, and stability
+- Optimized on-demand page resource loading to improve the experience across the home page, NewTab, and snapshot management pages
+- Remembered the most recently used sign-in method to reduce repeated setup
+
+### Fixes & Improvements
+
+- Improved sign-in state persistence and automatic renewal to reduce interruptions and repeated sign-ins
+- Improved navigation consistency across the extension and Web versions
+- Improved synchronization of snapshot creation, opening, and favorite states
+- Improved recommendation and search interaction handling for a more reliable experience in edge cases
+- Improved handling of empty snapshots and duplicate content for more stable snapshot operations
+
+---
+
 # Version v0.6.5
 
 ### Highlights
