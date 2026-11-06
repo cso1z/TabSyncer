@@ -2,6 +2,26 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+# Version v0.7.5
+
+Focused on the New Tab page and snapshot management, making it easier to organize tabs, access shortcuts, and restore windows.
+
+### Highlights
+
+- Improved tab organization with a window-based view of open tabs
+- Added manual ordering for snapshot tabs from the home page and New Tab shortcuts, using drag and drop or up and down controls
+- Added the ability to create and manage shortcuts from existing snapshots for easier access to frequently used content
+- Preserved pinned and active tab states when restoring window snapshots
+- Added a feedback entry for sharing suggestions and experiences
+
+### Improvements
+
+- Improved the visual presentation of New Tab recommendations and shortcuts
+- Improved preview and recovery of recently closed windows
+- Improved snapshot selection, management dialogs, and tab icon presentation
+
+---
+
 # Version v0.7.0
 
 ### Highlights

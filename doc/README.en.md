@@ -88,7 +88,11 @@ Relationship graph example:
 
    Open Tabout from NewTab, organize currently open tabs, close duplicates, and save the important context as a snapshot.
 
-5. **Rediscover Past Context**
+5. **Clear The Current Window In One Step**
+
+   Have too many pages open and no time to organize them one by one? Use “Save and organize” to save the current window's pages as a snapshot and close eligible tabs. This can help reduce browser memory usage, and you can restore the pages when you need them.
+
+6. **Rediscover Past Context**
 
    Use grouped snapshot lists on the home page, or open the graph view to find related historical material.
 
