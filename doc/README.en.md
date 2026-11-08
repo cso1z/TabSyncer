@@ -1,142 +1,86 @@
 # TabSyncer
 
-[View in Chinese](../README.md) | [View in English](README.en.md)
+[中文版](../README.md) | [English](README.en.md)
 
 [![Official Website](https://img.shields.io/badge/Official%20Website-Open-16A34A)](https://www.joker.blue/tab/website)
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim?hl=zh-CN&utm_source=tabsyncer-readme)
-[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/ngfhokcebemclkfagnkgfficddkmcoim?label=version)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim?hl=zh-CN&utm_source=tabsyncer-readme)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim?utm_source=tabsyncer-readme)
+[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/ngfhokcebemclkfagnkgfficddkmcoim?label=version)](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim?utm_source=tabsyncer-readme)
 [![Version Notes](https://img.shields.io/badge/Version%20Notes-View-64748B)](VERSION.md)
 
-TabSyncer is a Chrome extension suite for managing browser workspaces. It is not only a snapshot saver. Its core loop connects the new tab entry point, Tabout for organizing currently open tabs, saved snapshot maintenance, and continuing work across devices.
+**Too many open tabs? Save them for later.**
 
-The main flow is: start from NewTab, organize currently open tabs with Tabout, save valuable context as snapshots, then manage those snapshots from the home page through lists, groups, and search.
+TabSyncer helps you organize and save browser pages as snapshots, then find and reopen them when you need them. Group related pages by topic and keep frequent links within reach on your new tab page.
 
----
+![TabSyncer new tab workspace](../resource/readme-workspace.webp)
 
-## Core Capabilities
+The new tab workspace brings together search, shortcuts, and snapshot recommendations, so you can continue organizing or return to frequently used pages.
 
-1. **Use NewTab As The Daily Work Entry**
+## What can you use it for?
 
-   Keep frequent links, snapshot entries, and work-continuity prompts on the new tab page. TabSyncer supports arbitrary saved links, and lets you preview and restore recently closed windows and tabs.
+- **Set pages aside**: Save the current page or the pages in the current window and reopen them later.
+- **Organize project and study resources**: Keep related pages together and find them with groups and search.
+- **Access saved pages on another device**: Sign in to the same account to view and open your snapshots.
 
-2. **Organize Currently Open Tabs**
+## Features
 
-   Use Tabout to review, filter, and organize open tabs, handle duplicates, similar domains, and groups, then save the cleaned-up result.
+### Save and reopen pages
 
-3. **Save Browser Workspaces**
+Click the TabSyncer icon in the browser toolbar to save the current page or the pages in the current window. Later, reopen the whole set or just one page.
 
-   Save the current tab, current window, all windows, or split windows into separate snapshots, turning temporary browser sessions into contexts you can return to later.
+Choose “Save and organize” to save the current window's pages and close eligible tabs; pinned browser tabs stay open. Closing tabs can help reduce browser memory use, depending on the pages and browser state.
 
-4. **Manage And Maintain Snapshots**
+![Save options in the extension menu](../resource/readme-save.webp)
 
-   Group, search, restore, and enrich snapshots with additional pages so they become maintainable project contexts instead of one-time archives.
+**What is a snapshot?** A snapshot is a saved collection of one or more pages. It saves links; page contents such as unsubmitted form data may not be restored when reopened.
 
-5. **Continue Work Across Devices**
+### Organize open tabs
 
-   After signing in with the same account, snapshots and work contexts can sync across office desktops, home computers, laptops, and other devices.
+View open pages in the tab organizer, keep tabs you still need, close unwanted tabs, or add pages to a collection and save them. Duplicate pages are marked to make them easier to organize.
 
-## Product Workflow
+![Tab organizer](../resource/readme-organizer.webp)
 
-### 1. Start From NewTab
+### Home: manage saved pages
 
-TabSyncer can turn Chrome's new tab page into a lightweight workspace that brings frequent links, snapshot entries, work-continuity prompts, recently closed windows and tabs, and the open-tab organizer together. You can preview and restore recently closed windows or tabs to quickly resume your work. Frequent websites and work entry points can also be saved as clearer shortcuts.
+View your snapshots on the home page and find saved pages by group or keyword. Expand a snapshot to see its tabs, then open a single page or the whole set.
 
-![NewTab workspace](../resource/newtab.png)
+You can also merge snapshots, remove duplicates, or restore deleted snapshots from the recycle bin.
 
-### 2. Organize Open Tabs With Tabout
+![Snapshot management home](../resource/readme-home.webp)
 
-When the browser becomes noisy, open Tabout from NewTab to review tabs across the current window and other windows, organize them by window, group, similar domain, and duplicate page, then decide what should be kept.
+### Relationship graph: discover related content
 
-![Tabout open-tab management](../resource/tabout.png)
-
-### 3. Save And Manage Snapshots
-
-Organized tabs can be saved as snapshots. After saving, use the home page to view all, temporary, grouped, and deleted snapshots, search them, rename them, merge them, restore them, or add more pages to an existing context.
-
-![Snapshot management](../resource/home.png)
-
-## Supporting Capabilities
-
-- **Import Chrome bookmarks**: Bring existing materials into TabSyncer as a starting point for organization.
-- **Export snapshots to local files**: Back up, migrate, or keep snapshots offline.
-- **Relationship graph**: Rediscover related snapshots and contexts from a graph-based view.
-- **Enhanced shortcuts**: Configure clearer entries and icons for frequent websites and work entry points.
-- **Recycle bin recovery**: Restore deleted snapshots individually or in batches.
-- **Multi-language UI**: Cover core actions, dialogs, and interface prompts with built-in localized copy.
-
-Relationship graph example:
+Use the relationship graph to find potentially related snapshots, shared pages, and similar resources.
 
 ![Snapshot relationship graph](../resource/contextgraph.png)
 
----
+Other features include Chrome bookmark import, local snapshot export, and a multilingual interface.
 
-## Use Cases
+## Install and get started
 
-1. **Continue Work Across Devices**
+### Install from the Chrome Web Store
 
-   Save a set of work tabs at the office, sign in at home, and restore the same context without hunting every page down again.
+The recommended option is to [install TabSyncer from the Chrome Web Store](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim). After installing, you can pin it to the toolbar from the browser's extensions menu.
 
-2. **Preserve Project Contexts**
+### Install the release package manually
 
-   Save docs, dashboards, repositories, test environments, and design references as project snapshots that can keep growing over time.
+1. Download and extract `TabSyncer.zip` from the [releases page](https://github.com/cso1z/TabSyncerForPublic/releases) or this repository.
+2. Open `chrome://extensions/` in Chrome and enable Developer mode.
+3. Click “Load unpacked” and select the extracted directory.
 
-3. **Start Each Day From NewTab**
+Manual installations need to be updated manually. See the [user guide (Chinese)](https://www.joker.blue/tab/website/guide) for saving and organizing pages and setting up an account.
 
-   Put frequent websites, project snapshots, and work entries you want to continue on NewTab so you can return to work faster after opening the browser.
+You can also use the [web app](https://www.joker.blue/tab/main) to view and manage saved snapshots.
 
-4. **Clean Up A Noisy Browser**
+## Account and data
 
-   Open Tabout from NewTab, organize currently open tabs, close duplicates, and save the important context as a snapshot.
+- You can try TabSyncer without entering an email address first. A trial creates a temporary account; before signing out or changing devices, bind an email address, or set a password and save your account ID.
+- Sign in to the same account on another device to view and open its snapshots.
+- Snapshot information, including page titles, URLs, and groups, is stored on the server and associated with your account. See the [privacy policy](https://www.joker.blue/tab/privacy-policy) for details.
 
-5. **Clear The Current Window In One Step**
+## Feedback and versions
 
-   Have too many pages open and no time to organize them one by one? Use “Save and organize” to save the current window's pages as a snapshot and close eligible tabs. This can help reduce browser memory usage, and you can restore the pages when you need them.
+Questions or suggestions? Join the discussion in [Issues](https://github.com/cso1z/TabSyncerForPublic/issues). See [version notes](VERSION.md) for release history.
 
-6. **Rediscover Past Context**
-
-   Use grouped snapshot lists on the home page, or open the graph view to find related historical material.
-
----
-
-## Installation
-
-### Option 1: Install From Chrome Web Store
-
-The recommended way is to install TabSyncer directly from Chrome Web Store:
-
-[TabSyncer - Chrome Web Store](https://chromewebstore.google.com/detail/tabsyncer/ngfhokcebemclkfagnkgfficddkmcoim)
-
-### Option 2: Install The Release Package
-
-1. Download `TabSyncer.zip` from this repository or the latest release.
-2. Extract `TabSyncer.zip`.
-3. Open `chrome://extensions/` in Chrome.
-4. Enable Developer mode.
-5. Click "Load unpacked".
-6. Select the extracted extension directory.
-
-### Option 3: Use The Web Manager
-
-For temporary snapshot viewing or management, you can also open:
-
-[https://www.joker.blue/tab/main](https://www.joker.blue/tab/main)
-
----
-
-## Feedback
-
-Questions, ideas, and pull requests are welcome.
-
----
-
-## Version Notes
-
-Historical version notes are available in [VERSION.md](VERSION.md).
-
----
-
-## Join The Community
-
-Join the TabSyncer QQ group to discuss usage tips, share feedback, suggest features, and get early access notes for beta builds. It is a good place for users who want to help shape the browser workspace workflow.
+You are also welcome to join the TabSyncer QQ group to share feedback and usage tips.
 
 ![TabSyncer QQ group](../resource/qq.png)
