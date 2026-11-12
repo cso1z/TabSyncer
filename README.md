@@ -11,7 +11,7 @@
 
 TabSyncer 是一款浏览器标签页管理工具。你可以把打开的网页保存为快照，需要时再找到并打开；也可以按主题整理网页，在新标签页快速访问常用内容。
 
-https://github.com/user-attachments/assets/7ada6a2f-f22c-461f-9aee-d482d0ebcfa0
+https://github.com/user-attachments/assets/038e8d31-2875-4013-9f66-786871fb83cc
 
 新标签页工作台集中提供搜索、快捷入口和快照推荐，方便继续整理或回到常用网页。
 
