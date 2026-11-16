@@ -2,6 +2,24 @@
 [View in Chinese](VERSION.zh.md) | [View in English](VERSION.md)
 # TabSyncer Version Introduction
 
+# Version v0.8.0
+
+Get back to your workspace faster with keyboard shortcuts, find pages that are already open, and organize saved links with AI.
+
+### Highlights
+
+- Open the TabSyncer workspace and tab organizer with keyboard shortcuts
+- Find and switch to an already open tab when opening a saved page
+- Connect an AI assistant through MCP to find and manage saved links, snapshots, groups, and shortcuts, with configurable permissions and expiration
+- Explore the new community and improved user guide for answers and feedback
+
+### Improvements
+
+- Improved shortcut, snapshot ordering, and tab organization interactions
+- Improved account information and sign-out, including signing out while offline
+
+---
+
 # Version v0.7.5
 
 Focused on the New Tab page and snapshot management, making it easier to organize tabs, access shortcuts, and restore windows.

@@ -47,6 +47,12 @@ You can also merge snapshots, remove duplicates, or restore deleted snapshots fr
 
 ![Snapshot management home](../resource/readme-home.webp)
 
+### Manage saved links with an AI assistant
+
+Connect a compatible AI assistant through MCP to find and manage saved pages, snapshots, groups, and shortcuts using natural language. Set the authorization scope and expiration, and revoke access whenever you need to.
+
+[View the AI setup guide](https://www.joker.blue/tab/website/guide?hl=en#ai-access)
+
 ### Relationship graph: discover related content
 
 Use the relationship graph to find potentially related snapshots, shared pages, and similar resources.
@@ -63,11 +69,11 @@ The recommended option is to [install TabSyncer from the Chrome Web Store](https
 
 ### Install the release package manually
 
-1. Download and extract `TabSyncer.zip` from the [releases page](https://github.com/cso1z/TabSyncerForPublic/releases) or this repository.
+1. Download and extract `TabSyncer.zip` from the [releases page](https://github.com/cso1z/TabSyncer/releases) or this repository.
 2. Open `chrome://extensions/` in Chrome and enable Developer mode.
 3. Click “Load unpacked” and select the extracted directory.
 
-Manual installations need to be updated manually. See the [user guide (Chinese)](https://www.joker.blue/tab/website/guide) for saving and organizing pages and setting up an account.
+Manual installations need to be updated manually. See the [user guide](https://www.joker.blue/tab/website/guide?hl=en) for saving and organizing pages and setting up an account.
 
 You can also use the [web app](https://www.joker.blue/tab/main) to view and manage saved snapshots.
 
@@ -79,7 +85,7 @@ You can also use the [web app](https://www.joker.blue/tab/main) to view and mana
 
 ## Feedback and versions
 
-Questions or suggestions? Join the discussion in [Issues](https://github.com/cso1z/TabSyncerForPublic/issues). See [version notes](VERSION.md) for release history.
+Questions or suggestions? Join the discussion in [Issues](https://github.com/cso1z/TabSyncer/issues). See [version notes](VERSION.md) for release history.
 
 You are also welcome to join the TabSyncer QQ group to share feedback and usage tips.
 

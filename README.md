@@ -49,6 +49,12 @@ https://github.com/user-attachments/assets/038e8d31-2875-4013-9f66-786871fb83cc
 
 ![快照管理首页](resource/readme-home.webp)
 
+### 与 AI 助手一起管理收藏
+
+通过 MCP 连接支持的 AI 助手，用自然语言查找和管理收藏的网页、快照、分组与快捷入口。你可以设置授权范围和有效期，并随时撤销授权。
+
+[查看 AI 接入指南](https://www.joker.blue/tab/website/guide?hl=zh-CN#ai-access)
+
 ### 关联图谱：发现相关内容
 
 使用关联图谱查看可能相关的快照，发现共同网页和相似资料。
@@ -65,7 +71,7 @@ https://github.com/user-attachments/assets/038e8d31-2875-4013-9f66-786871fb83cc
 
 ### 手动安装发布包
 
-1. 从[发布页面](https://github.com/cso1z/TabSyncerForPublic/releases)或本仓库下载 `TabSyncer.zip`，并解压。
+1. 从[发布页面](https://github.com/cso1z/TabSyncer/releases)或本仓库下载 `TabSyncer.zip`，并解压。
 2. 在 Chrome 中打开 `chrome://extensions/`，开启「开发者模式」。
 3. 点击「加载已解压的扩展程序」，选择解压后的目录。
 
@@ -81,7 +87,7 @@ https://github.com/user-attachments/assets/038e8d31-2875-4013-9f66-786871fb83cc
 
 ## 反馈与版本
 
-有问题或建议，欢迎在 [Issues](https://github.com/cso1z/TabSyncerForPublic/issues) 中交流。版本更新记录见[版本说明](doc/VERSION.zh.md)。
+有问题或建议，欢迎在 [Issues](https://github.com/cso1z/TabSyncer/issues) 中交流。版本更新记录见[版本说明](doc/VERSION.zh.md)。
 
 也欢迎加入 TabSyncer QQ 交流群，分享使用体验和建议。
 
